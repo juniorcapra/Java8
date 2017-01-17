@@ -17,7 +17,7 @@ public class TestesCollections {
 		
 		for(int i = 0; i<1000000;i++){
 			
-			mapaJdk.put("Junior", "Devmedia");
+			mapaJdk.put("Junior", "SYNCHRO");
 			
 		}
 		
