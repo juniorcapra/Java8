@@ -15,6 +15,7 @@ public class FileTesteAntigo {
 
 	public static void main(String[] args) {
 		new FileTesteAntigo().readFileAntigo2();
+		//new FileTesteAntigo().readFileAntigo1();
 	}
 
 	public void readFileAntigo1() {
