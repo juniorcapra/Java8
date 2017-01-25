@@ -15,7 +15,7 @@ public class LambdaTestes {
 private static List<String> lista = Arrays.asList(new String[] {"F", "Z", "A", "G", "B", "C"});
 
 	public static void main(String[] args) {
-		double soma = Calc.calcular(40d, 20d, (x, y) -> x / y);
+		double soma = Calc.calcular(40d, 20d, (x, y) -> x + y);
 		System.out.println(soma);
 		
 		lista.stream().forEachOrdered(s -> System.out.println(s));
